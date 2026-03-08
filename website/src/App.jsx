@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import './App.css';
-
+import Popup from './Popup';
 /* ═══════════════════════════════════════════
    Hooks
    ═══════════════════════════════════════════ */
@@ -555,6 +555,7 @@ function ClosingSection() {
 export default function App() {
   return (
     <main className="app">
+      <Popup />
       <Hero />
       <DirectorySection />
       <ShiftSection />

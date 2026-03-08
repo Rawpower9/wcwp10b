@@ -1,0 +1,41 @@
+.popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  display: inline-block;
+  width: 25rem;
+  height: 15rem;
+  /* background-color: #555; */
+  background: #D3D3D3;
+  color: #555;
+  border-radius: 6px;
+  padding: 8px 8px;
+  z-index: 1;
+  /* bottom: 125%;
+  left: 50%; */
+  margin-left: -80px;
+  overflow-y:auto;
+}
+
+.popup #close{
+    position: fixed;
+    aspect-ratio: 1 / 1; /* width and height will be equal */
+    /* font-size: 1.5rem; */
+    right: 30px;
+    width: 1.5rem;
+    text-align: center;
+    color: fff;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.popup p{
+    font-size: 0.8em;
+}
+
+.popup #title{
+    font-size: 0.8em;
+}
